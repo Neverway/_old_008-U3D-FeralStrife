@@ -36,68 +36,68 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Utilities/EditorMaterialQuality.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/DisplayWindow.EnvironmentLibrarySidePanel.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Debugging/DebugUIDrawer.Builtins.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/SerializedDataParameter.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/LookDev.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/Drawers/IntParameterDrawer.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/CoreEditorUtils.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/CoreLightEditorUtilities.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ShaderGeneratorMenu.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESObject.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/DropArea.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESImporterEditor.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/Drawers/FloatParameterDrawer.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/RenderGraph/RenderGraphViewer.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/Drawers/Vector4ParameterDrawer.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Stage.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeComponentEditor.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeComponentListEditor.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/InspectorCurveEditor.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESImporter.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/DisplayWindow.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeProfileEditor.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Environment.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/ComparisonGizmoController.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESEngine.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Utilities/SerializedBitArray.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ContextualMenuDispatcher.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeParameterDrawer.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/CSharpToHLSL.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/ComparisonGizmoState.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/CoreEditorStyles.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeComponentProvider.cs" />
-     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Gizmo/HierarchicalSphere.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Context.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/CameraState.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Utilities/EditorMaterialQuality.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/DisplayWindow.EnvironmentLibrarySidePanel.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ShaderTypeGeneration.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/EnvironmentLibrary.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Debugging/DebugUIDrawer.Builtins.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Debugging/DebugUIDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/LookDevRenderer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeEditor.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/SpeedTree8MaterialUpgrader.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ExpandedState.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/SerializedDataParameter.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/LookDev.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/Drawers/IntParameterDrawer.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/CoreEditorUtils.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/CoreEditorDrawers.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Gizmo/HierarchicalBox.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/CoreLightEditorUtilities.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/MaterialUpgrader.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Debugging/DebugWindow.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ShaderGeneratorMenu.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESObject.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/DropArea.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESReader.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESImporterEditor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/Drawers/FloatParameterDrawer.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/RenderGraph/RenderGraphViewer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/PropertyFetcher.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/Drawers/Vector4ParameterDrawer.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Stage.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ProjectorEditor.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Compositor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeComponentEditor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeComponentListEditor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/InspectorCurveEditor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESImporter.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/DisplayWindow.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/QuaternionPropertyDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Debugging/DebugUIHandlerCanvasEditor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeProfileEditor.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/ToolbarRadio.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/DisplayWindow.DebugSidePanel.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Environment.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Debugging/DebugState.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/FilterWindow.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Debugging/UIFoldoutEditor.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/ComparisonGizmoController.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Lighting/IESEngine.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/Drawers/ColorParameterDrawer.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Utilities/SerializedBitArray.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeProfileFactory.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/CameraController.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeMenuItems.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ContextualMenuDispatcher.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/CSharpToHLSL.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeParameterDrawer.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/EditorPrefBoolFlags.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/ComparisonGizmoState.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/CoreEditorStyles.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Volume/VolumeComponentProvider.cs" />
+     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/Gizmo/HierarchicalSphere.cs" />
      <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/CameraEditorUtils.cs" />
      <None Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/CubeToLatlong.shader" />
      <None Include="Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Compositor.shader" />
@@ -335,28 +335,25 @@
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Untitled Folder/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Untitled Folder/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Untitled Folder/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.NRefactory">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Untitled Folder/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Untitled Folder/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Untitled Folder/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Untitled Folder/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
