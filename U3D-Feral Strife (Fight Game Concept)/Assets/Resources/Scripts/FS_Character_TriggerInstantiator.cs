@@ -34,6 +34,7 @@ public class FS_Character_TriggerInstantiator : MonoBehaviour
 
     private void Update()
     {
+        allowingActivation = true;
         if(instantiate && allowingActivation)
         {
             if (triggerType == 0)
@@ -41,8 +42,8 @@ public class FS_Character_TriggerInstantiator : MonoBehaviour
                 allowingActivation = false;
                 InstantiateHurtbox();
                 instantiate = false;
+                return;
             }
-            
         }
     }
 
@@ -53,6 +54,5 @@ public class FS_Character_TriggerInstantiator : MonoBehaviour
         triggerIntantiated.GetComponent<FS_Trigger_Hurtbox>().damage = damage;
         triggerIntantiated.GetComponent<FS_Trigger_Hurtbox>().framesActive = framesActive;
         triggerIntantiated.transform.localScale = scale;
-        allowingActivation = true;
     }
 }

@@ -1,0 +1,11 @@
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/bin/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.deps.json
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/bin/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.runtimeconfig.json
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/bin/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.runtimeconfig.dev.json
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/bin/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.dll
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/bin/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.pdb
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/obj/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.csprojAssemblyReference.cache
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/obj/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.csproj.CoreCompileInputs.cache
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/obj/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.AssemblyInfoInputs.cache
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/obj/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.AssemblyInfo.cs
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/obj/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.dll
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_ConsoleApplicationTest/obj/Debug/netcoreapp2.1/FS_ConsoleApplicationTest.pdb
