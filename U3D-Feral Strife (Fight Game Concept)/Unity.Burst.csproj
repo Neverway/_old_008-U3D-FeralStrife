@@ -36,38 +36,38 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstString.Float.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/F16C.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstCompileAttribute.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/DiagnosticId.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/Common.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/SimdDebugViews.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/v128.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/v256.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/CompilerServices/Loop.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstCompiler.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Popcnt.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/FunctionPointer.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse4_1.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/NoAliasAttribute.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse3.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Ssse3.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/v64.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/CompilerServices/Aliasing.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse2.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse4_2.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstRuntime.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Avx2.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Fma.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstCompilerOptions.cs" />
-     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstString.Float.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstCompiler.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Popcnt.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse3.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/FunctionPointer.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Common.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/DiagnosticId.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/CompilerServices/Aliasing.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Ssse3.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/v64.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Fma.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/CompilerServices/AssumeRangeAttribute.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/SharedStatic.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse2.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstExecutionEnvironment.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/Common.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse4_1.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse4_2.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Avx.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Sse.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/NoAliasAttribute.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/x86/Csr.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstCompilerOptions.cs" />
      <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/BurstString.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/SimdDebugViews.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Intrinsics/v256.cs" />
+     <Compile Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/CompilerServices/Loop.cs" />
      <None Include="Library/PackageCache/com.unity.burst@1.3.4/Runtime/Unity.Burst.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -295,25 +295,25 @@
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

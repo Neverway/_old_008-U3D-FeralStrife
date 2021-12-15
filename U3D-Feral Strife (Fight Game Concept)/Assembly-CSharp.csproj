@@ -36,17 +36,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Resources/Scripts/Networking/Packet.cs" />
      <Compile Include="Assets/Resources/Scripts/FS_Trigger_Hurtbox.cs" />
      <Compile Include="Assets/Resources/Scripts/Main Menu/FS_System_Config.cs" />
      <Compile Include="Assets/Resources/Scripts/FS_Hud_StatReference.cs" />
      <Compile Include="Assets/Resources/Scripts/FS_Stage_Blastzone.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/Client.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/UIManager.cs" />
      <Compile Include="Assets/Resources/Scripts/FS_Character_Controller.cs" />
      <Compile Include="Assets/Resources/Scripts/Main Menu/FS_Menu_NameSetter.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/ThreadManager.cs" />
      <Compile Include="Assets/Resources/Scripts/FS_Character_RootReferencer.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/ClientSend.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/ClientHandle.cs" />
      <Compile Include="Assets/Resources/Scripts/FS_Character_Look.cs" />
      <Compile Include="Assets/Resources/Scripts/FS_Character_TriggerInstantiator.cs" />
-     <Compile Include="Assets/Resources/Scripts/Networking/FS_Client.cs" />
-     <Compile Include="Assets/Resources/Scripts/Networking/FS_UIManager.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/CameraController.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/GameManager.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/PlayerController.cs" />
+     <Compile Include="Assets/Resources/Scripts/Networking/PlayerManager.cs" />
      <None Include="Assets/Packages/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/Packages/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/Packages/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
@@ -289,6 +297,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -724,6 +735,46 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{67574f19-c0f1-222b-6e99-d02befb06b9b}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{bbba89db-225a-208b-d582-e25dff3b3aa1}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.csproj">
+      <Project>{a76b39ec-3aae-4d49-a415-88c1c79dddf4}</Project>
+      <Name>Unity.Animation.Rigging</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.Editor.csproj">
+      <Project>{b2886b58-4576-cb7e-3f67-594003da0d89}</Project>
+      <Name>Unity.Animation.Rigging.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{a1ddf89b-1bf5-c54e-c4f8-cb14be44052c}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{42aa790e-7627-744b-ab53-f67ad21147a7}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{9c9a4c0a-dce4-f082-ed87-544bfd4ea0df}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{fa5a730f-a0ae-4e3b-9bbd-2555ea74d608}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{a94d5229-7b23-b107-d60d-d5f0e6216e8d}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{b2a6138e-e29e-a150-d158-d57085f9054b}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{2b6764e4-a5b1-4abc-0337-075934f23c88}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

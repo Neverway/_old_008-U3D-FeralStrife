@@ -36,18 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/IKdTree.cs" />
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/KdTree.cs" />
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/KdTreeNode.cs" />
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/NearestNeighbourList.cs" />
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/AssemblyInfo.cs" />
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/PriorityQueue.cs" />
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/HyperRect.cs" />
-     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/Math/TypeMath.cs" />
      <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/Math/FloatMath.cs" />
      <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/IPriorityQueue.cs" />
      <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/Math/ITypeMath.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/AssemblyInfo.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/KdTree.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/PriorityQueue.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/HyperRect.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/KdTreeNode.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/IKdTree.cs" />
      <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/Math/DoubleMath.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/NearestNeighbourList.cs" />
+     <Compile Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/KdTreeLib/Math/TypeMath.cs" />
      <None Include="Library/PackageCache/com.unity.probuilder@4.5.2/External/KdTree/Unity.ProBuilder.KdTree.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -275,25 +275,25 @@
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.collab-proxy@1.13.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -1,0 +1,11 @@
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/bin/Debug/netcoreapp2.1/FS_Server.deps.json
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/bin/Debug/netcoreapp2.1/FS_Server.runtimeconfig.json
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/bin/Debug/netcoreapp2.1/FS_Server.runtimeconfig.dev.json
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/bin/Debug/netcoreapp2.1/FS_Server.dll
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/bin/Debug/netcoreapp2.1/FS_Server.pdb
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/obj/Debug/netcoreapp2.1/FS_Server.csprojAssemblyReference.cache
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/obj/Debug/netcoreapp2.1/FS_Server.csproj.CoreCompileInputs.cache
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/obj/Debug/netcoreapp2.1/FS_Server.AssemblyInfoInputs.cache
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/obj/Debug/netcoreapp2.1/FS_Server.AssemblyInfo.cs
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/obj/Debug/netcoreapp2.1/FS_Server.dll
+/home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/U3D-Feral Strife (Fight Game Concept)/FS_Server/obj/Debug/netcoreapp2.1/FS_Server.pdb

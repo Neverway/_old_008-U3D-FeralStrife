@@ -398,6 +398,7 @@ GameObject:
   - component: {fileID: 3320613134920839365}
   - component: {fileID: 3320613134920839370}
   - component: {fileID: 9211618073947206135}
+  - component: {fileID: -413866226344209590}
   m_Layer: 6
   m_Name: Network Player
   m_TagString: Untagged
@@ -550,11 +551,26 @@ MonoBehaviour:
   triggerType: 0
   damage: 5
   framesActive: 0
+  scale: {x: 1, y: 1, z: 1}
   refpointID: 0
   refpointIDs:
   - {fileID: 5403655707561013268}
   HurtboxPrefab: {fileID: 2071405081809366795, guid: 263a39418d351c3759eb43eca133cd7b, type: 3}
   WindboxPrefab: {fileID: 0}
+--- !u!114 &-413866226344209590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3320613134920839368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d630d9731a1c86b638a865640f37ec0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  username: 
 --- !u!1 &3320613134953991529
 GameObject:
   m_ObjectHideFlags: 0
@@ -4244,11 +4260,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ea14f070487c62428d430ab1b7ee3bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerID: 2
-  UIReference: {fileID: 0}
-  usingTMPText: 1
-  TMPReference: {fileID: 8681434307152491035}
   variableID: percent
+  preappend: 
+  postappend: 
+  playerID: 2
+  useFunctionToUpdate: 0
+  UIReference: {fileID: 0}
+  TMPReference: {fileID: 8681434307152491035}
+  InputReference: {fileID: 0}
+  configManager: {fileID: 0}
 --- !u!1 &8681434308739267787
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Resources/Scenes/UI_Lobby.unity
+    guid: ea8c53d64b36c5681b767a550a094df4
+  - enabled: 1
+    path: Assets/Resources/Scenes/DM_Boundary.unity
+    guid: 12c2cb42ca82c6066bd971a0e3ae3b58
+  - enabled: 1
+    path: Assets/Resources/Scenes/Dev_PlayerController.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Resources/Scenes/!DM_Template.unity
+    guid: f2406ee8aa512ce18810871b1e34e33c
   m_configObjects: {}

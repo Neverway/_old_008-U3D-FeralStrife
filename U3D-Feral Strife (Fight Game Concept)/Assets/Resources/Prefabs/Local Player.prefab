@@ -1990,6 +1990,7 @@ GameObject:
   - component: {fileID: 5287924832878291994}
   - component: {fileID: 8400584218549089}
   - component: {fileID: 6523431202968521444}
+  - component: {fileID: -1069354335247921815}
   m_Layer: 6
   m_Name: Local Player
   m_TagString: Untagged
@@ -2142,11 +2143,26 @@ MonoBehaviour:
   triggerType: 0
   damage: 5
   framesActive: 0
+  scale: {x: 0, y: 0, z: 0}
   refpointID: 0
   refpointIDs:
   - {fileID: 8046942926002719495}
   HurtboxPrefab: {fileID: 2071405081809366795, guid: 263a39418d351c3759eb43eca133cd7b, type: 3}
   WindboxPrefab: {fileID: 0}
+--- !u!114 &-1069354335247921815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832288659626046118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d630d9731a1c86b638a865640f37ec0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  username: 
 --- !u!1 &4958465944963646305
 GameObject:
   m_ObjectHideFlags: 0
