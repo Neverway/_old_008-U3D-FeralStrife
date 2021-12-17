@@ -14,6 +14,7 @@ using UnityEngine;
 using System.Net;
 using System.Net.Sockets;
 using System;
+using UnityEngine.UI;
 
 public class Client : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class Client : MonoBehaviour
     public static int dataBufferSize = 4096;
 
     public string ip = "127.0.0.1";
+    public InputField IpField;
     public int port = 25568;
     public int myId = 0;
     public TCP tcp;
@@ -28,6 +30,11 @@ public class Client : MonoBehaviour
 
     private delegate void PacketHandler(Packet _packet);
     private static Dictionary<int, PacketHandler> packetHandlers;
+
+    private void Update()
+    {
+        ip = IpField.text;
+    }
 
     private void Awake()
     {
