@@ -21,14 +21,22 @@ public class PlayerController : MonoBehaviour
     // Reference variables
 
 
-    void Start()
+    void FixedUpdate()
     {
-	
+        SendInputToServer();
     }
 
 
-    void Update()
+    private void SendInputToServer()
     {
-	
+        bool[] _inputs = new bool[]
+        {
+            Input.GetKey(KeyCode.W),
+            Input.GetKey(KeyCode.S),
+            Input.GetKey(KeyCode.A),
+            Input.GetKey(KeyCode.D),
+        };
+
+        ClientSend.PlayerMovement(_inputs);
     }
 }
