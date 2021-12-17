@@ -837,7 +837,7 @@ ScriptsOnlyBuild:
     className: WhiteBalance
   - hash:
       serializedVersion: 2
-      Hash: a393e1d85ad3d56e5c48c9a58cc2d806
+      Hash: c8a5b7ff37e1c43f0e1ce9f6b1d78af3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Client
