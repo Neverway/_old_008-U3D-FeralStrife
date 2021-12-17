@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - FS_Character_RootReferencer
     - FS_Character_TriggerInstantiator
     - FS_Hud_StatReference
+    - FS_Menu_Events
     - FS_Menu_NameSetter
     - FS_Stage_Blastzone
     - FS_System_Config
@@ -655,6 +656,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7988}
     - Class: 114
       Script: {instanceID: 8242}
+    - Class: 114
+      Script: {instanceID: 142742}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2046,6 +2049,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FS_Menu_Events
   platform: 24
   scenePathNames:
   - Assets/Resources/Scenes/UI_Lobby.unity
