@@ -1,40 +1,40 @@
 # Starting compiling UnityEngine.TestRunner.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-631dd12eb86a9074586bc1706e4523ad
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-775070aa201013b74abe9bf5023ad432
 # Starting compiling UnityEngine.UI.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7fabaa6d7536d9cdf9a43de370cbe067
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-38633f1bea8093246892b42dc84c15c9
 # Starting compiling Unity.RenderPipelines.Universal.Shaders.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c320266167fbc90d581679b96477b28b
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-55d4fa6e6028b7d968b120d3e4a0c01b
 # Starting compiling Unity.Timeline.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d91fe5ebf2e8c0b828b41bba53883c84
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fdc355d21c0ef7c63a81c8146e433009
 # Starting compiling Unity.TextMeshPro.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9aa48510b51caceeb9c600fce67d6db9
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-df154341252ced78a8994b6ae7d299f2
 # Starting compiling Unity.ProBuilder.Csg.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fbbc8185ef91060ed95d8cc2d8a18810
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9ca24999bf7a928edbd055ae49f314c0
 # Starting compiling Unity.RenderPipelines.Core.Runtime.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-03c635f9dc93c1f7e8d601513914d045
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7be9bb434a1f8019d983473d8700cc6d
 # Starting compiling Unity.RenderPipelines.Core.ShaderLibrary.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ec59b30555c177ec8866f985115b0a66
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0327a6e38812938e2885ffa95a4468c2
 # Starting compiling Unity.ProBuilder.Poly2Tri.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ee9c9bae855fa5c9dbd645f3b7f5f3c5
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7f840114c34140066bd695004f2a4ee1
 # Starting compiling Unity.Mathematics.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bab1de87bd1d653398b63ffab8d31990
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f26007dd94c459d9092be665b2946ad6
 # Starting compiling Unity.ProBuilder.KdTree.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-15f41b915bd9cec92820778a26f0a882
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ecb7ab0349e8a77099247a427f8b71b7
 # Starting compiling Unity.Burst.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5e602dbbf152b234aac58535cf8b1db2
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-058d09898fbed4b428dd6e5590700f39
 # Starting compiling Unity.ProBuilder.Stl.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d467f100c88a60a1aa8182b8be7489d2
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f7f1cbd8b173a89a5a3e5eacfbd7e39d
 # Starting compiling Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b01fec6d69163a9f08fd182346169cdd
-# Starting compiling Unity.RenderPipeline.Universal.ShaderLibrary.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f759e2c7db4e36e9ea75022af00c4743
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-006c414b67d0edc438733c9a1847a338
 # Starting compiling Unity.ProBuilder.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-39e29fc3db36e3db398c50d144703ef8
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0268c019acc950d2689cacd9288340dc
+# Starting compiling Unity.RenderPipeline.Universal.ShaderLibrary.dll
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-48a9cc83b92be293188c162f76e3d4e1
 # Starting compiling Unity.Animation.Rigging.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d9d2b9a78fa86f435ab928706f56cc09
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-09f990240274ffe0eb3a622fb950fe58
 # Starting compiling Unity.RenderPipelines.Universal.Runtime.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7b548933678a9b3b79453f0aae673e35
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9aff41b8caf662f75a80ad8b8f104e54
 # Starting compiling Cinemachine.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cd437a2a6e2c32cd9906c46ec5e005ea
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a5751296dde06352eb5b1cd4f769f482
 # Starting compiling Assembly-CSharp.dll
-/home/lizband/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e9ecac5333e0c37f5a6f7f279c43bfc5
+/home/lizband/Desktop/2020.3.22f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-baf87bb46e0226ed1901c4e994194eac

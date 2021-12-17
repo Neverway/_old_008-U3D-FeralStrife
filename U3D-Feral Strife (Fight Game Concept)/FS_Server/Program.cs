@@ -15,7 +15,7 @@ namespace FS_Server
             Thread mainThread = new Thread(new ThreadStart(MainThread));
             mainThread.Start();
 
-            Server.Start(2, 25568);
+            Server.Start(69, 25568);
         }
 
         private static void MainThread()

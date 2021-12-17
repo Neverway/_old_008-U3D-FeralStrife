@@ -75,10 +75,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -178,23 +176,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5458}
     - Class: 114
-      Script: {instanceID: 5992}
+      Script: {instanceID: 5994}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 6036}
     - Class: 114
-      Script: {instanceID: 6048}
+      Script: {instanceID: 6050}
     - Class: 114
-      Script: {instanceID: 6096}
+      Script: {instanceID: 6098}
     - Class: 114
-      Script: {instanceID: 6528}
+      Script: {instanceID: 6530}
     - Class: 114
-      Script: {instanceID: 6672}
+      Script: {instanceID: 6674}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 7260}
     - Class: 114
-      Script: {instanceID: 7598}
+      Script: {instanceID: 7600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -299,23 +297,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5458}
     - Class: 114
-      Script: {instanceID: 5992}
+      Script: {instanceID: 5994}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 6036}
     - Class: 114
-      Script: {instanceID: 6048}
+      Script: {instanceID: 6050}
     - Class: 114
-      Script: {instanceID: 6096}
+      Script: {instanceID: 6098}
     - Class: 114
-      Script: {instanceID: 6528}
+      Script: {instanceID: 6530}
     - Class: 114
-      Script: {instanceID: 6672}
+      Script: {instanceID: 6674}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 7260}
     - Class: 114
-      Script: {instanceID: 7598}
+      Script: {instanceID: 7600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -418,21 +416,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5458}
     - Class: 114
-      Script: {instanceID: 5992}
+      Script: {instanceID: 5994}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 6036}
     - Class: 114
-      Script: {instanceID: 6048}
+      Script: {instanceID: 6050}
     - Class: 114
-      Script: {instanceID: 6528}
+      Script: {instanceID: 6530}
     - Class: 114
-      Script: {instanceID: 6672}
+      Script: {instanceID: 6674}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 7260}
     - Class: 114
-      Script: {instanceID: 7598}
+      Script: {instanceID: 7600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -607,57 +605,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 5900}
+      Script: {instanceID: 5670}
     - Class: 114
-      Script: {instanceID: 5992}
+      Script: {instanceID: 5902}
     - Class: 114
-      Script: {instanceID: 6034}
+      Script: {instanceID: 5994}
     - Class: 114
-      Script: {instanceID: 6048}
+      Script: {instanceID: 6036}
     - Class: 114
-      Script: {instanceID: 6096}
+      Script: {instanceID: 6050}
     - Class: 114
-      Script: {instanceID: 6178}
+      Script: {instanceID: 6098}
     - Class: 114
-      Script: {instanceID: 6258}
+      Script: {instanceID: 6180}
     - Class: 114
-      Script: {instanceID: 6264}
+      Script: {instanceID: 6260}
     - Class: 114
-      Script: {instanceID: 6364}
+      Script: {instanceID: 6266}
     - Class: 114
-      Script: {instanceID: 6404}
+      Script: {instanceID: 6366}
     - Class: 114
-      Script: {instanceID: 6446}
+      Script: {instanceID: 6406}
     - Class: 114
-      Script: {instanceID: 6528}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 6538}
+      Script: {instanceID: 6530}
     - Class: 114
-      Script: {instanceID: 6654}
+      Script: {instanceID: 6540}
     - Class: 114
-      Script: {instanceID: 6672}
+      Script: {instanceID: 6656}
     - Class: 114
-      Script: {instanceID: 6804}
+      Script: {instanceID: 6674}
     - Class: 114
-      Script: {instanceID: 6902}
+      Script: {instanceID: 6806}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 6904}
     - Class: 114
-      Script: {instanceID: 6932}
+      Script: {instanceID: 6912}
     - Class: 114
-      Script: {instanceID: 6992}
+      Script: {instanceID: 6934}
     - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 6994}
     - Class: 114
-      Script: {instanceID: 7598}
+      Script: {instanceID: 7260}
     - Class: 114
-      Script: {instanceID: 7630}
+      Script: {instanceID: 7600}
     - Class: 114
-      Script: {instanceID: 7988}
+      Script: {instanceID: 7632}
     - Class: 114
-      Script: {instanceID: 8242}
+      Script: {instanceID: 7990}
     - Class: 114
-      Script: {instanceID: 142742}
+      Script: {instanceID: 8244}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1547,6 +1545,12 @@ ScriptsOnlyBuild:
     className: ColorCurves
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FS_Menu_Events
+  - hash:
+      serializedVersion: 2
       Hash: 1aa3c1056d70edf15fdd22dc9270d47e
     assemblyName: Unity.Animation.Rigging.dll
     namespaceName: UnityEngine.Animations.Rigging
@@ -2049,12 +2053,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FS_Menu_Events
   platform: 24
   scenePathNames:
   - Assets/Resources/Scenes/UI_Lobby.unity
