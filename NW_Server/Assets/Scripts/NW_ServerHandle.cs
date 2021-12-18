@@ -23,7 +23,9 @@ public class NW_ServerHandle
         int _clientIdCheck = _packet.ReadInt();
         string _username = _packet.ReadString();
 
-        Debug.Log($"{NW_Server.clients[_fromClient].tcp.socket.Client.RemoteEndPoint} connected successfully and is now player {_fromClient}.");
+        //Debug.Log($"{NW_Server.clients[_fromClient].tcp.socket.Client.RemoteEndPoint}");
+        //Debug.Log($"{_fromClient}.");
+        //Debug.Log($"{NW_Server.clients[_fromClient].tcp.socket.Client.RemoteEndPoint} connected successfully and is now player {_fromClient}.");
         if (_fromClient != _clientIdCheck)
         {
             Debug.Log($"Player \"{_username}\" (ID: {_fromClient}) has assumed the wrong client ID ({_clientIdCheck})!");

@@ -39,7 +39,7 @@ public class NW_NetworkManager : MonoBehaviour
         //#if UNITY_EDITOR
         //Debug.LogWarning("The project needs to be built to launch the server!");
         //#else
-        NW_Server.Start(4, 25569);
+        NW_Server.Start(4, 25568);
         //#endif
     }
 
