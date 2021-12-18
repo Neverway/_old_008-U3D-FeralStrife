@@ -23,7 +23,7 @@ public class Client : MonoBehaviour
 
     public string ip = "127.0.0.1";
     public InputField IpField;
-    public int port = 25568;
+    public int port = 25569;
     public int myId = 0;
     public TCP tcp;
     public UDP udp;
