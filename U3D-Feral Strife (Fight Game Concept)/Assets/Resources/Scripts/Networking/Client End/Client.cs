@@ -34,7 +34,7 @@ public class Client : MonoBehaviour
 
     private void Update()
     {
-        //ip = IpField.text;
+        ip = IpField.text;
     }
 
     private void Awake()
