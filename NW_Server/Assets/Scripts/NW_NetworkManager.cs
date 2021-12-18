@@ -36,15 +36,20 @@ public class NW_NetworkManager : MonoBehaviour
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 30;
 
-        #if UNITY_EDITOR
-        Debug.LogWarning("The project needs to be built to launch the server!");
-        #else
+        //#if UNITY_EDITOR
+        //Debug.LogWarning("The project needs to be built to launch the server!");
+        //#else
         NW_Server.Start(4, 25569);
-        #endif
+        //#endif
+    }
+
+    private void OnApplicationQuit()
+    {
+        NW_Server.Stop();
     }
 
     public NW_Player InstantiatePlayer()
     {
-        return Instantiate(playerPrefab, Vector3.zero, Quaternion.identity).GetComponent<NW_Player>();
+        return Instantiate(playerPrefab, new Vector3(0f, 1f, 0f), Quaternion.identity).GetComponent<NW_Player>();
     }
 }

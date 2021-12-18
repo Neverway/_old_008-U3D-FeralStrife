@@ -483,7 +483,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3320613134920839368}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c8ed6a5a3768bba9bcbf0cd4b912d2c, type: 3}
   m_Name: 
@@ -518,7 +518,7 @@ MonoBehaviour:
   rightLegIdeal: {fileID: 3320613135721174643}
   leftRaycast: {fileID: 3320613135331072487}
   rightRaycast: {fileID: 3320613135126691192}
-  playerRigidbody: {fileID: 0}
+  playerRigidbody: {fileID: 3320613134920839366}
 --- !u!114 &3320613134920839370
 MonoBehaviour:
   m_ObjectHideFlags: 0

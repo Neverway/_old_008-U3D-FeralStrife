@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        SendInputToServer();
+        ClientSend.PlayerMovement2();
     }
 
 
@@ -37,6 +37,6 @@ public class PlayerController : MonoBehaviour
             Input.GetKey(KeyCode.D),
         };
 
-        ClientSend.PlayerMovement(_inputs);
+        ClientSend.PlayerMovement2();
     }
 }

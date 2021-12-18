@@ -151,7 +151,14 @@ public class NW_Server
             {
                 { (int)ClientPackets.welcomeReceived, NW_ServerHandle.WelcomeReceived },
                 { (int)ClientPackets.playerMovement, NW_ServerHandle.PlayerMovement },
+                { (int)ClientPackets.playerMovement2, NW_ServerHandle.PlayerMovement2 },
             };
             Debug.Log("Initialized packets.");
+        }
+
+        public static void Stop()
+        {
+            tcpListener.Stop();
+            udpListener.Close();
         }
     }

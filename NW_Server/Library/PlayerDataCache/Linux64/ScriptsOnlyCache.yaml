@@ -395,7 +395,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 19ce4d990b36c942bc272650aa89dc85
+      Hash: c62954c410f3cf8dda5d500fc2c01607
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NW_Player

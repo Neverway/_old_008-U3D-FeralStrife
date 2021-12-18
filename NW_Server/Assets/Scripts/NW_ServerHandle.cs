@@ -42,4 +42,13 @@ public class NW_ServerHandle
 
         NW_Server.clients[_fromClient].player.SetInput(_inputs, _rotation);
     }
+
+    public static void PlayerMovement2(int _fromClient, NW_Packet _packet)
+    {
+        
+        Vector3 _position = _packet.ReadVector3();
+        Quaternion _rotation = _packet.ReadQuaternion();
+
+        NW_Server.clients[_fromClient].player.SetInput2(_position, _rotation);
+    }
 }

@@ -2,5 +2,3 @@ Base path: '/home/lizband/Desktop/2020.3.22f1/Editor/Data', plugins path '/home/
 Cmd: initializeCompiler
 
 Cmd: shutdown
-
-Quitting shader compiler process

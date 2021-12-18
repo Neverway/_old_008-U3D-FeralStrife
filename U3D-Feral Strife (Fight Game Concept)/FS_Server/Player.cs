@@ -57,8 +57,8 @@ namespace FS_Server
             Vector3 _moveDirection = _right * _inputDirection.X + _forward * _inputDirection.Y;
             position += _moveDirection * moveSpeed;
 
-            ServerSend.PlayerPosition(this);
-            ServerSend.PlayerRotation(this);
+            //ServerSend.PlayerPosition(this);
+            //ServerSend.PlayerRotation(this);
         }
 
         public void SetInput(bool[] _inputs, Quaternion _rotation)

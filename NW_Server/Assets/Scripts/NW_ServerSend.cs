@@ -100,7 +100,7 @@ public class NW_ServerSend
         using (NW_Packet _packet = new NW_Packet((int)ServerPackets.playerPosition))
         {
             _packet.Write(_player.id);
-            _packet.Write(_player.transform.position);
+            _packet.Write(_player.netpos);
 
             SendUDPDataToAll(_packet);
         }

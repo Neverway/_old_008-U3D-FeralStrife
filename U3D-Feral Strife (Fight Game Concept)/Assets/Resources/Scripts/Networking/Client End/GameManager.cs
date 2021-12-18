@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            _player = Instantiate(networkPlayerPrefab, _position, _rotation);
+            _player = Instantiate(networkPlayerPrefab, _position+new Vector3(_position.x,3,_position.z), _rotation);
         }
 
         _player.GetComponent<PlayerManager>().id = _id;

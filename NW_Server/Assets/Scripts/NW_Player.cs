@@ -20,8 +20,11 @@ public class NW_Player : MonoBehaviour
     private float moveSpeed = 5f / NW_Constants.TICKS_PER_SEC;
     private bool[] inputs;
 
+    public Vector3 netpos;
+
     public void Initialize(int _id, string _username)
     {
+        netpos = new Vector3(0,0,0);
         id = _id;
         username = _username;
 
@@ -30,6 +33,7 @@ public class NW_Player : MonoBehaviour
 
     public void FixedUpdate()
     {
+        /*
         Vector2 _inputDirection = Vector2.zero;
         if (inputs[0])
         {
@@ -48,7 +52,8 @@ public class NW_Player : MonoBehaviour
             _inputDirection.x += 1;
         }
 
-        Move(_inputDirection);
+        Move(_inputDirection);*/
+        Move2();
     }
 
     private void Move(Vector2 _inputDirection)
@@ -61,9 +66,21 @@ public class NW_Player : MonoBehaviour
         NW_ServerSend.PlayerRotation(this);
     }
 
+    private void Move2()
+    {
+        NW_ServerSend.PlayerPosition(this);
+        NW_ServerSend.PlayerRotation(this);
+    }
+
     public void SetInput(bool[] _inputs, Quaternion _rotation)
     {
         inputs = _inputs;
+        transform.rotation = _rotation;
+    }
+
+    public void SetInput2(Vector3 _position, Quaternion _rotation)
+    {
+        netpos = _position;
         transform.rotation = _rotation;
     }
 }

@@ -30,7 +30,8 @@ using UnityEngine;
     public enum ClientPackets
     {
         welcomeReceived = 1,
-        playerMovement
+        playerMovement,
+        playerMovement2
     }
 
     public class NW_Packet : IDisposable
