@@ -498,4 +498,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/Scenes/Server.unity
-  playerPath: /home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Builds/Server/FeralStrifeServerTools.x86_64
+  playerPath: /home/lizband/Desktop/NAS/Neverway/Games/ID-007 FeralStrife/Builds/Linux/ServerTools/FeralStrifeServerTools.x86_64

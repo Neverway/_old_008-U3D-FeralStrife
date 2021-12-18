@@ -29,9 +29,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.CollabProxy.Editor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Rider.Editor", "Unity.Rider.Editor.csproj", "{c5dd6541-17ad-6d38-9ba0-62db9fa46f6d}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unity.VSCode.Editor.csproj", "{43df58d9-6cd8-9b81-d41a-5b23372d2c34}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.SysrootPackage.Editor", "Unity.SysrootPackage.Editor.csproj", "{40e1026a-5a8d-fae2-843d-3e1fdb1a388e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unity.VSCode.Editor.csproj", "{43df58d9-6cd8-9b81-d41a-5b23372d2c34}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Sysroot.Linux_x86_64", "Unity.Sysroot.Linux_x86_64.csproj", "{e72937f3-b8e6-8594-8bc6-18aef0e8c082}"
 EndProject
@@ -70,10 +70,10 @@ Global
 		{400f9a56-f414-e77a-c644-8b7916fa44a8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c5dd6541-17ad-6d38-9ba0-62db9fa46f6d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c5dd6541-17ad-6d38-9ba0-62db9fa46f6d}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43df58d9-6cd8-9b81-d41a-5b23372d2c34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43df58d9-6cd8-9b81-d41a-5b23372d2c34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40e1026a-5a8d-fae2-843d-3e1fdb1a388e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{40e1026a-5a8d-fae2-843d-3e1fdb1a388e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43df58d9-6cd8-9b81-d41a-5b23372d2c34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43df58d9-6cd8-9b81-d41a-5b23372d2c34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e72937f3-b8e6-8594-8bc6-18aef0e8c082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e72937f3-b8e6-8594-8bc6-18aef0e8c082}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12762771-da97-fe5a-19d5-aa196565288e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
