@@ -1808,7 +1808,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 72687214}
   m_TextComponent: {fileID: 1402244630}
   m_Placeholder: {fileID: 290908620}
@@ -2860,7 +2860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0fda46a49438dc818360a2453fa008b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ip: 127.0.0.1
+  ip: 192.168.0.18
   IpField: {fileID: 49975853}
   port: 25569
   myId: 0
