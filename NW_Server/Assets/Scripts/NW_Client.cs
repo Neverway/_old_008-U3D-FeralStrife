@@ -230,6 +230,11 @@ public class NW_Client
 
         NW_ThreadManager.ExecuteOnMainThread(() =>
         {
+            Debug.Log("Destorying " + player.gameObject);
+            //Send id to all clients of a player to be destroyed
+            
+            NW_ServerSend.DisconnectionId(player.id);
+
             UnityEngine.Object.Destroy(player.gameObject);
             player = null;
         });

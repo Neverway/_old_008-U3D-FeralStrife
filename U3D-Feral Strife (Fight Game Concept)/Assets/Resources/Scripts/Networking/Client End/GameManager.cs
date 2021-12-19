@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public static Dictionary<int, PlayerManager> players = new Dictionary<int, PlayerManager>();
+    public PlayerManager[] playerEntities;
 
     public GameObject localPlayerPrefab;
     public GameObject networkPlayerPrefab;
@@ -54,5 +55,18 @@ public class GameManager : MonoBehaviour
         _player.GetComponent<PlayerManager>().id = _id;
         _player.GetComponent<PlayerManager>().username = _username;
         players.Add(_id, _player.GetComponent<PlayerManager>());
+    }
+
+    public void DisconnectPlayer(int _id)
+    {
+        playerEntities = FindObjectsOfType<PlayerManager>();
+        
+        for (int i = 0; i < playerEntities.Length; i++)
+        {
+            if (playerEntities[i].id == _id)
+            {
+                Debug.Log("Destroying game object: " + playerEntities[i] + " | Reason: Disconnected");
+            }
+        }
     }
 }

@@ -116,5 +116,15 @@ public class NW_ServerSend
             SendUDPDataToAll(_player.id, _packet);
         }
     }
+
+    public static void DisconnectionId(int _id)
+    {
+        using (NW_Packet _packet = new NW_Packet((int)ServerPackets.disconnectionId))
+        {
+            _packet.Write(_id);
+
+            SendUDPDataToAll(_packet);
+        }
+    }
     #endregion
 }

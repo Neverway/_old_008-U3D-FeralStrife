@@ -58,4 +58,17 @@ public class ClientHandle : MonoBehaviour
 
         GameManager.players[_id].transform.rotation = _rotation;
     }
+    
+    public static void disconnectionID(Packet _packet)
+    {
+        int _id = _packet.ReadInt();
+
+        if (_id == Client.instance.myId)
+        {
+        }
+        else
+        {
+            UnityEngine.Object.Destroy(GameManager.players[_id].gameObject);
+        }
+    }
 }
